@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from tkinter import messagebox
+from tkinter import messagebox # импортируем модуль интерфейса
 
 from saving_requests_db import (
     change_stat_keywords,
@@ -8,7 +8,9 @@ from saving_requests_db import (
     get_rank_keywords,
     get_rank_genre_year,
     create_tables
-)
+) # импортируем функции по созданию, записи и обновлению  таблиц запросов,
+# а также получения информации из таблиц
+
 
 create_tables()
 
